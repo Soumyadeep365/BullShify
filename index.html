@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULLSHIFT-2020</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div class="container box">
+            <span><img src="images/logo.png" alt="web-logo" style="height: 50px;"></span>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">LIVE TRADING COURSES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="store.html">STORE</a></li>
+                </ul>
+            </nav>
+            <span>
+                <a class="btn btn-dark" href="login.html"><i class='bx bx-user'></i> LOGIN</a>
+            </span>
+        </div>
+    </header>
+
+    <div class="sec1">
+        <div class="top-portion container">
+            <span class="shade">Bullish or Bearish we swing both ways</span>
+            <p class="sub-head">Our Focus is on Both</p>
+            <h2 id="text" class="head"></h2>
+            <p class="para">Martee Hibbs, our Technical Analyst produces a weekly market update video for our Free Basic
+                membership. Those of you looking for a more in-depth analysis should consider signing up for our
+                premium, subscription based <a href="#">Market Oracle Membership</a></p>
+        </div>
+
+        <div class="hero">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="6"></li>
+                    <li data-target="#mainCarousel" data-slide-to="5"></li>
+                    <li data-target="#mainCarousel" data-slide-to="4"></li>
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                    <li data-target="#mainCarousel" data-slide-to="2"></li>
+                    <li data-target="#mainCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner7.png" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner6.png" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner5.png" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/banner1.png" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner2.png" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner3.png" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/banner4.png" alt="Slide 7">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="lower-portion container">
+            <div class="coin">
+                <p>Hedera (HBAR) $0.074525</p>
+                <a href="#" class="num"><span class="arrow">▲</span> 5.07%</a>
+            </div>
+            <div class="coin">
+                <p>Theta Network (THETA) $1.47</p>
+                <a href="#" class="num"><span class="arrow">▲</span> 5.07%</a>
+            </div>
+            <div class="coin">
+                <p>Theta Fuel (TFUEL) $0.074525</p>
+                <a href="#" class="num"><span class="arrow">▲</span> 5.07%</a>
+            </div>
+            <div class="coin">
+                <p>Bitcoin (BTC) $62,611.78</p>
+                <a href="#" class="num"><span class="arrow">▲</span> 5.07%</a>
+            </div>
+            <div class="coin">
+                <p>Hedera (HBAR) $0.074525</p>
+                <a href="#" class="num"><span class="arrow">▲</span> 5.07%</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec2">
+        <div class="head-portion container">
+            <span class="mini">What We Offer</span>
+            <h2 class="head">Explore Our <b class="yellow">Offerings</b></h2>
+            <p class="para"><b class="yellow">Bullshift</b> offers two ways of experiencing our educational courses. The
+                first, which is the more common way, is to purchase 1, 2 or all 3 (<b class="yellow">Bundle</b>) of our
+                courses on <b class="yellow">Futures, Options</b>. or <b class="yellow">Technical Analysis</b>. in the
+                form of recorded video session with a video link and a password. Purchasing our <b
+                    class="yellow">bundle</b>, offers a substantial savings from the original price of <b
+                    class="white">USD 1195</b>. The <b class="yellow">Bundle</b> Special contains links for all 3 videos
+                (14 hours) of instruction for just <b class="white">495 USD</b>. These live recorded sessions are only
+                held twice a year and are more expensive (USD 1195 ) but allow the participants the opportunity to ask
+                questions and be part of the zoom event. Our next live session will be in January of 2025.</p>
+        </div>
+
+        <div class="cards-portion container">
+            <div class="cards">
+                <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                    <div class="card hover1" style="width: 560px; height: 588px;" data-aos="fade-right"
+                        data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                        <div class="card-body">
+                            <h5 class="card-title">Free Basic <span>Membership</span></h5>
+                            <p class="card-text"><b class="white">Weekly Video:</b> Enjoy free weekly video updates
+                                covering Futures Markets, Bitcoin, and other cryptocurrencies.</p>
+                            <p class="card-text"><b class="white">No Cost:</b> Sign up without any credit card or
+                                obligations.</p>
+                            <p class="card-text"><b class="white">Easy Upgrade:</b> Ready to take it to the next level?
+                                Sign up for the Premium Market Oracle Membership using the panel to the right.</p>
+                            <div class="btn"><a href="#" class="btn btn-primary">Sign Up For Free Updates Only</a></div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                    <div class="card hover2" style="width: 560px; height: 588px;" data-aos="fade-left"
+                        data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                        <div class="card-body sp">
+                            <div class="head">
+                                <div>
+                                    <h5 class="card-title">Premium Market Oracle <span>Membership</span></h5>
+                                    <p class="card-text"><b class="white strick">USD 195</b> <b class="yellow">September
+                                            Special</b> <b class="white">USD 119</b></p>
+                                </div>
+                                <span class="ima"><img src="./images/ll.png" alt="..."></span>
+                            </div>
+                            <p class="card-text">The <b class="white">MARKET ORACLE</b> is a proprietary,
+                                computer-generated signal system developed by <b class="white">Martee Hibbs,</b> a
+                                seasoned expert with over 35 years in the <b class="white">Futures</b> and Equity
+                                markets. Created 20 years ago, this system leverages Martee’s extensive experience to
+                                identify support and resistance levels, aiding in optimal entry and exit points to
+                                maximize profits and minimize losses. Watch the testimonial video by <b
+                                    class="white">Dick Allgire</b> from the Future Forecasting Group to see the <b
+                                    class="white">MARKET ORACLE SIGNALS</b> in action.</p>
+                            <div class="lower">
+                                <p><b class="yellow">Market Oracle Grand Opening Special 60% Off Regular Monthly
+                                        Rate</b></p>
+                                <div class="btn">
+                                    <a href="#" class="btn btn-primary">Sign Up For Free Updates Only</a>
+                                    <p>Cancel <u>anytime</u> after first month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                    <div class="card csp hover3" style="width: 560px; height: 419px;" data-aos="fade-right"
+                        data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                        <div class="card-body sp2">
+                            <h5 class="card-title">Personal One-on-One <span>Zoom Session with Martee</span></h5>
+                            <p class="card-text">For those of you looking for a personal
+                                experience, maybe to rebalance your portfolio or discuss other topics with Martee, you
+                                might consider a 1 on 1 private zoom session. These can be used to discuss the markets,
+                                your investments, or any other topic that you wish. <b href="#" class="white click">read more</b></p>
+                            <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, quos? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</b></p>
+                            <div class="btn" style="padding-top: 17px;"><a href="#" class="btn btn-primary">Buy Now</a></div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                    <div class="card csp hover4" style="width: 560px; height: 419px;" data-aos="fade-left"
+                        data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                        <div class="card-body sp3">
+                            <h5 class="card-title"><b class="yellow">Learn 2 Trade</b> Live  <span>Sessions With Martee</span></h5>
+                            <p class="card-text" >Join us for our engaging live learning experience featuring a comprehensive three-part course delivered 
+                                via Zoom. Our upcoming course is scheduled for <b class="yellow">Winter Special</b> of this year and is limited to a maximum of 20 participants. 
+                                The sessions will be... <b href="#" class="white click">read more</b></p>
+                            <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, quos? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</b></p>
+                            <div class="btn" style="padding-top: 17px;"><a href="#" class="btn btn-primary">Buy Now</a></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec3">
+        <div class="upper-portion container" data-aos="fade-left" data-aos-duration="1500" id="#learn">
+            <div class="flag">
+                <span><img src="./images/trade.png" alt="..."></span>
+                <div class="head">
+                    <h2>Educational Video From Martee</h2>
+                    <p><b class="yellow">Learn To Trade Futures Contracts, Options and Technical Analysis</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="low-portion container" id="course">
+            <div class="left" data-aos="flip-left" data-aos-duration="1500">
+                <div class="hha">
+                    <h5>Explore Individual Courses</h5>
+                </div>
+                <div class="card-port">
+                    <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 258px; height: 560px;" data-aos="fade-up"
+                            data-aos-duration="1500">
+                            <div class="card-body hover sp">
+                                <div class="head">
+                                    <div>
+                                        <h5 class="card-title"><b class="yellow">Futures</b> Training Course</h5>
+                                        <p class="card-text"><b class="white">USD 375</b></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" style="padding-bottom: 0;">Unlock the secrets of the <b class="yellow">Futures Markets</b>
+                                    Investing with Our comprehensive video course designed specifically for investors
+                                    looking to understand these unique markets and how to navigate them.. Whether you're
+                                    a beginner.. <b class="white click">read more</b></p>
+                                <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet.</b></p>
+                                <div class="lower">
+                                    <p><b class="yellow">Buy Features 101</b></p>
+                                    <div class="btn">
+                                        <a href="#" class="btn btn-primary">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card hover" style="width: 258px; height: 560px;" data-aos="fade-up"
+                            data-aos-duration="1500">
+                            <div class="card-body sp1">
+                                <div class="head">
+                                    <div>
+                                        <h5 class="card-title"><b class="yellow">Options</b> Training Course</h5>
+                                        <p class="card-text"><b class="white">USD 375</b></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" ><b class="yellow">SECRETS OF OPTIONS</b>
+                                    Trading with MARTEE In this comprehensive video course you will learn The power of
+                                    leverage and how to maximize your profits while limiting your risk. You will team
+                                    how to capitalize on any market... <b class="white click">read more</b></p>
+                                <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet.</b></p>
+                                <div class="lower" style="margin-top: 22px;">
+                                    <p><b class="yellow">Buy Options 101</b></p>
+                                    <div class="btn">
+                                        <a href="#" class="btn btn-primary">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card hover" style="width: 258px; height: 560px;" data-aos="fade-up"
+                            data-aos-duration="1500">
+                            <div class="card-body sp2">
+                                <div class="head">
+                                    <div>
+                                        <h5 class="card-title">Technical Training Course</h5>
+                                        <p class="card-text"><b class="white">USD 375</b></p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Unlock the power of <b class="yellow">Technical Analysis</b> with
+                                    our in-depth video course!</p>
+                                <p class="card-text" style="padding: 10px 0;">Dive into chart formations and patterns to
+                                    predict market trends, master support and resistance levels for... <b
+                                        class="white click">read more</b></p>
+                                <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet.</b></p>
+                                <div class="lower">
+                                    <div class="btn" style="margin-top: 42px;">
+                                        <a href="#" class="btn btn-primary">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="right" data-aos="flip-right" data-aos-duration="1500">
+                <div class="hha">
+                    <h5>Bundle Course</h5>
+                </div>
+                <div class="card-port">
+                    <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 258px; height: 560px;" data-aos="fade-up"
+                            data-aos-duration="2000">
+                            <div class="card-body hover">
+                                <div class="head">
+                                    <div>
+                                        <h5 class="card-title">Recorded Video Sessions Of All 3 Courses</h5>
+                                        <p class="card-text"><b class="white">USD 495</b></p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Take advantage of our exclusive <b class="yellow">BUNDLE</b>
+                                    pricing for the comprehensive trio of courses. For limited time, unlock access to
+                                    three courses valued at USD 1175, each delivered in a professionally... <b
+                                        class="white click">read more</b></p>
+                                <p class="show" style="padding: 0;"><b class="white">Lorem ipsum dolor sit amet.</b></p>
+                                <div class="lower">
+                                    <p><b class="yellow">60% Discount</b></p>
+                                    <div class="btn">
+                                        <a href="#" class="btn btn-primary">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec4">
+        <div class="full-portion container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="uupper">
+                        <span class="mini">About</span>
+                        <h2 class="head">Martee <b class="yellow">Hibbs</b></h2>
+                        <p class="para">Martee has been presenting live seminars and weekend workshops for more than 25
+                            years. These small dedicated groups of 20 or less receive first-hand experience in trading
+                            the major markets from Wall Street to Bay Street.</p>
+                        <div class="btn"><a href="#" class="btn btn-primary"><span>↗</span>Find Out More</a></div>
+                    </div>
+
+                    <div class="effc" data-aos="fade-up-right" data-aos-duration="1500" style="z-index: 1;">
+                        <div class="llower">
+                            <div class="sp">
+                                <img class="effect" src="./images/vid.png" alt="...">
+                                <a href="./images/vid_pro.mp4" data-fancybox data-aspect-ratio="2 / 1">
+                                    <div class="vid">
+                                        <figure>
+                                            <img src="./images/ban3.png" style="height: 480px; width: 418px;" alt="...">
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5 cool">
+                    <div class="uupper">
+                        <span class="mini">Bullshift Review</span>
+                        <h2 class="head">Dick Allgire's review of <b class="yellow">Bullshift2020!</b></h2>
+                        <div class="para">
+                            <p>Martee is the best at reading those charts and hitting the right numbers.</p>
+                            <p class="sp">Dick Allgire - Cryptoviewing</p>
+                        </div>
+                    </div>
+
+                    <div class="effc" data-aos="fade-up-left" data-aos-duration="1500">
+                        <div class="llower">
+                            <div class="sp">
+                                <img class="effect" src="./images/vid.png" alt="...">
+                                <div class="vid">
+                                    <figure>
+                                        <a href="./images/vid2.mp4" data-fancybox data-aspect-ratio="2 / 1">
+                                            <img src="./images/ban4.png" style="height: 480px; width: 418px;" alt="...">
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="effect"></div>
+        </div>
+    </div>
+
+    <div class="sec5">
+        <img src="./images/Grid1.png" class="grid" alt="...">
+        <div class="up-portion container">
+            <div class="head">
+                <h5>Our Latest <b class="yellow">Premium Videos</b></h5>
+            </div>
+            <div class="bd">
+                <div class="btnn" style="width: fit-content;">
+                    <a href="#learn">MARKET ORACLE UPDATES</a>
+                    <a href="#course" class="active">MARKET ORACLE TRADE ALERTS</a>
+                </div>
+            </div>
+        </div>
+        <div class="low-portion" data-aos="fade-up" data-aos-duration="1500">
+            <div class="slider-box group">
+                <div class="slide card">
+                    <a href="./images/vid4.mp4" data-fancybox data-aspect-ratio="2 / 1"
+                        style="text-decoration: none;">
+                        <figure><img src="./images/c1.png" alt="..."></figure>
+                        <div class="content">
+                            <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                            <h5 class="head">
+                                Market Oracle ....forward Guidance
+                            </h5>
+                            <div class="desc">
+                                <div class="para">
+                                    <span><img src="./images/clock.png" alt="..."></span>
+                                    <p>66 Views</p>
+                                </div>
+                                <div class="para">
+                                    <span><img src="./images/eye.png" alt="..."></span>
+                                    <p>9 Hours Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide card">
+                    <a href="./images/vid4.mp4" data-fancybox data-aspect-ratio="2 / 1"
+                        style="text-decoration: none;">
+                        <figure><img src="./images/c2.png" alt="..."></figure>
+                        <div class="content">
+                            <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                            <h5 class="head">
+                                20 Min Update For Oracle Members
+                            </h5>
+                            <div class="desc">
+                                <div class="para">
+                                    <span><img src="./images/clock.png" alt="..."></span>
+                                    <p>66 Views</p>
+                                </div>
+                                <div class="para">
+                                    <span><img src="./images/eye.png" alt="..."></span>
+                                    <p>9 Hours Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide card">
+                    <a href="./images/vid5.mp4" data-fancybox data-aspect-ratio="2 / 1"
+                        style="text-decoration: none;">
+                        <figure><img src="./images/c3.png" alt="..."></figure>
+                        <div class="content">
+                            <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                            <h5 class="head">
+                                20 Min Update For Oracle Members
+                            </h5>
+                            <div class="desc">
+                                <div class="para">
+                                    <span><img src="./images/clock.png" alt="..."></span>
+                                    <p>66 Views</p>
+                                </div>
+                                <div class="para">
+                                    <span><img src="./images/eye.png" alt="..."></span>
+                                    <p>9 Hours Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide card">
+                    <a href="./images/vid5.mp4" data-fancybox data-aspect-ratio="2 / 1"
+                        style="text-decoration: none;">
+                        <figure><img src="./images/c4.png" alt="..."></figure>
+                        <div class="content">
+                            <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                            <h5 class="head">
+                                20 Min Update For Oracle Members
+                            </h5>
+                            <div class="desc">
+                                <div class="para">
+                                    <span><img src="./images/clock.png" alt="..."></span>
+                                    <p>66 Views</p>
+                                </div>
+                                <div class="para">
+                                    <span><img src="./images/eye.png" alt="..."></span>
+                                    <p>9 Hours Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide card">
+                    <a href="./images/vid3.mp4" data-fancybox data-aspect-ratio="2 / 1" style="text-decoration: none;">
+                        <figure><img src="./images/c5.png" alt="..."></figure>
+                        <div class="content">
+                            <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                            <h5 class="head">
+                                20 Min Update For Oracle Members
+                            </h5>
+                            <div class="desc">
+                                <div class="para">
+                                    <span><img src="./images/clock.png" alt="..."></span>
+                                    <p>66 Views</p>
+                                </div>
+                                <div class="para">
+                                    <span><img src="./images/eye.png" alt="..."></span>
+                                    <p>9 Hours Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="sec6">
+        <div class="up-portion container">
+            <div class="head">
+                <h5>Our Latest <b class="yellow">Premium Videos</b></h5>
+            </div>
+            <div class="bd">
+                <div class="btnn" style="width: fit-content;">
+                    <a href="#learn" class="active">Weekly Market Updates for Free Members</a>
+                    <a href="#course">Recommended Videos</a>
+                </div>
+            </div>
+        </div>
+        <div class="low-portion container">
+            <div class="row" style="margin-top: -70px;">
+                <div class="col-6 first" data-aos="flip-left" data-aos-duration="2000">
+                    <a href="./images/vid6.mp4" data-fancybox data-aspect-ratio="2 / 1" style="text-decoration: none;">
+                        <figure><img src="./images/ima.png" class="bun" alt="..."></figure>
+                        <div class="float">
+                            <div class="content">
+                                <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                                <h5 class="head">
+                                    20 Min Update For Oracle Members
+                                </h5>
+                                <div class="desc">
+                                    <div class="para">
+                                        <span><img src="./images/clock.png" alt="..."></span>
+                                        <p>66 Views</p>
+                                    </div>
+                                    <div class="para">
+                                        <span><img src="./images/eye.png" alt="..."></span>
+                                        <p>9 Hours Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./images/ply.png" class="ply" alt="...">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 second">
+                    <a href="./images/vid7.mp4" data-fancybox data-aspect-ratio="2 / 1" style="text-decoration: none;">
+                        <div class="template" data-aos="fade-left" data-aos-duration="2000">
+                            <img src="./images/ima2.png" class="ply" alt="...">
+                            <div class="content">
+                                <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                                <h5 class="head">
+                                    Market Oracle ....forward Guidance
+                                </h5>
+                                <div class="desc">
+                                    <div class="para">
+                                        <span><img src="./images/clock.png" alt="..."></span>
+                                        <p>66 Views</p>
+                                    </div>
+                                    <div class="para">
+                                        <span><img src="./images/eye.png" alt="..."></span>
+                                        <p>9 Hours Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./images/vid5.mp4" data-fancybox data-aspect-ratio="2 / 1" style="text-decoration: none;">
+                        <div class="template" data-aos="fade-left" data-aos-duration="2000">
+                            <img src="./images/ima3.png" class="ply" alt="...">
+                            <div class="content">
+                                <p><b class="yellow">Stock Markets And Bitcoin Update</b></p>
+                                <h5 class="head">
+                                    Market Oracle ....forward Guidance
+                                </h5>
+                                <div class="desc">
+                                    <div class="para">
+                                        <span><img src="./images/clock.png" alt="..."></span>
+                                        <p>66 Views</p>
+                                    </div>
+                                    <div class="para">
+                                        <span><img src="./images/eye.png" alt="..."></span>
+                                        <p>9 Hours Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="sec7">
+        <div class="up-portion container">
+            <span class="mini">Our Learning</span>
+            <h2 class="head">Learn with <b class="yellow">Bullshift Effortlessly</b></h2>
+            <div class="row">
+                <div class="col-7">
+                    <p class="para">Bullshift offers two ways to learn to Trade. You can buy the pre recorded courses
+                        individually or as a <b class="yellow">bundle</b>. These sessions which are previously recorded
+                        are approximately 3-4 hours per sessions focusing on <b class="white">Futures</b> 101 , <b
+                            class="yellow">Options</b> 101 and <b class="yellow">Technical Analysis</b>, for a 60%
+                        discount from the <b class="yellow">"Live" sessions</b> You may also choose to attend the <b
+                            class="yellow">Live sessions</b> which are held twice a year and cover the same material in
+                        a class enviroment through zoom.</p>
+                    <div class="btnn" style="width: fit-content;">
+                        <a href="#learn" class="active">Learn 2 Trade</a>
+                        <a href="#course">Courses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./images/line1.png" alt="..." class="effect">
+        <img src="./images/grid.png" alt="..." class="effect2">
+
+        <div class="low-portion container">
+            <div class="cards-port">
+                <div class="eff" data-aos="fade-up-right" data-aos-duration="1000">
+                    <a href="#" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card sp" style="width: 550px;">
+                            <div class="card-body hover1">
+                                <h5 class="card-title">Cryptos</h5>
+                                <p class="card-text">Looking to learn or find that edge to profit on Cryptocurrencies?
+                                    Our
+                                    approach is practical and easy to understand.</p>
+                                <div class="btn"><a href="#" class="btn btn-primary"><span>↗</span>Find Out More</a>
+                                </div>
+                                <figure><img src="./images/ban1.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="lift-card" data-aos="fade-up-left" data-aos-duration="1000">
+                    <a href="#" class="hover2" style="text-decoration: none; padding: 0; margin: 0;">
+                        <div class="card sp2 post" style="width: 550px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Commodity <b class="yellow">Futures</b></h5>
+                                <p class="card-text"><b class="yellow">Futures</b> markets provide a central marketplace
+                                    where buyers and sellers from all over the world can interact to determine prices
+                                </p>
+                                <div class="btn"><a href="#" class="btn btn-primary"><span>↗</span>Find Out More</a>
+                                </div>
+                                <figure><img src="./images/ban2.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <img src="./images/line2.png" alt="..." class="effect3">
+    </div>
+
+    <div class="footer">
+        <div class="upper-portion container">
+            <img src="./images/logo.png" alt="...">
+            <ul>
+                <li><a href="index.html"><b class="white">Terms & Conditions</b></a></li>
+                <li><a href="index.html"><b class="white">Disclaimer</b></a></li>
+                <li><a href="index.html"><b class="white">Membership Access</b></a></li>
+                <li><a href="index.html"><b class="white">Live Trading Courses</b></a></li>
+                <li><a href="index.html"><b class="white">Services</b></a></li>
+                <li><a href="index.html"><b class="white">Contact</b></a></li>
+            </ul>
+        </div>
+        <div class="lowest-portion">
+            <span>
+                <p>Copyright © 2024, Bullshift. All Rights Reserved | Website Designed by Webskitters</p>
+            </span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script> $('.carousel').carousel({ interval: 2000, ride: 'carousel' }); window.addEventListener("scroll", function () { const header = document.querySelector("header"); if (window.scrollY > 50) { header.classList.add("scrolled"); } else { header.classList.remove("scrolled"); } }); </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
+    </script>
+</body>
+
+</html>
