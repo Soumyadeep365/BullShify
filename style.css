@@ -1581,6 +1581,7 @@ header .btn i {
     justify-content: space-between;
     align-items: center;
     height: 580px;
+    z-index: -1;
 }
 
 .sec6 .low-portion .row .first .bun{
@@ -2100,4 +2101,5 @@ header .btn i {
     border-top: 1.5px solid #2C2C38;
     margin-top: 40px;
     margin-bottom: 0;
+
 }
