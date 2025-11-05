@@ -1580,8 +1580,6 @@ header .btn i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 580px;
-    z-index: -1;
 }
 
 .sec6 .low-portion .row .first .bun{
@@ -2103,3 +2101,4 @@ header .btn i {
     margin-bottom: 0;
 
 }
+
